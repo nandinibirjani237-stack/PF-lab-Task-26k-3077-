@@ -1,4 +1,4 @@
-#Task 1
+# Task 1<br>
 #include<stdio.h> <br>
 <br>int main() {
 int num1, num2;<br>
@@ -11,7 +11,7 @@ printf("the result is %f", result);<br>
 return 0;<br>
 }
 
-#Task 2
+# Task 2<br>
 #include<stdio.h><br>
 <br>int main(){
 int Totalmarks=200; float obtainmarks;<br>
@@ -22,7 +22,7 @@ printf("your percentage is %f", percentage);<br>
 return 0;<br>
 }
 
-#Task 3
+# Task 3<br>
 #include<stdio.h><br>
 int main() (
 int num;<br>
@@ -37,7 +37,7 @@ printf("odd num"');<br>
 return 0; <br>
 }
 
-#Task 4
+# Task 4<br>
 #include<stdio.h><br>
 <br>int main(){
 int age;<br>
@@ -51,7 +51,7 @@ printf("not eligible");<br>
 return 0 ;<br>
 }
 
-#Task 5
+# Task 5<br>
 #include<stdio.h><br>
 int main() (
 int marks;<br>
