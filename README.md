@@ -13,7 +13,7 @@ printf("Student doesnot qualifiles for scholarship");<br>
 return 0;<br>
 }
 <br>
-**Task 2** <br>
+# Task 2 <br>
 #include <stdio.h><br>
 <br>int main() {
 <br>int days;
