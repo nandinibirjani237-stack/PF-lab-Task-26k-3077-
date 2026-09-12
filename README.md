@@ -2,39 +2,39 @@
 #include <stdio.h>
 int main() {
 printf ("enter marks"); 
-scanf ("%d",&marks) ;
-printf ("enter income"); 
-scanf ("%d",&income) ;
+<br>scanf ("%d",&marks) ;<br>
+printf ("enter income"); <br>
+scanf ("%d",&income) ;<br>
 if (marks>=80|| income<50000){
 printf("Student qualifiles for scholarship");
-} else 
-printf("Student doesnot qualifiles for scholarship");
+} <br>else 
+printf("Student doesnot qualifiles for scholarship");<br>
 }
-return 0;
+return 0;<br>
 }
-
-**Task 2** 
-#include <stdio.h>
-int main() {
-int days;
-printf ("enter days"); 
-scanf("%d", &days) ;
-if (days==0)
-printf("no days");
+<br>
+**Task 2** <br>
+#include <stdio.h><br>
+<br>int main() {
+<br>int days;
+<br>printf ("enter days"); 
+<br>scanf("%d", &days) ;<br>
+if (days==0)<br>
+printf("no days");<br>
 ｝
-else if (days>=1 || days<=5)
-printf("days = 50"');
-else if (days>=6 |1 days<=10)
+else if (days>=1 || days<=5)<br>
+printf("days = 50"');<br>
+else if (days>=6 |1 days<=10)<br>
 {
-printf("days = 100"');
+printf("days = 100"');<br>
 }
-else{
-printf("days=200");
+<br>else{
+printf("days=200");<br>
 }
-return 0; 
+return 0; <br>
 }
 
-# Task 3
+# Task 3<br>
 #include <stdio.h>
 #include <string.h>
 int main() {
