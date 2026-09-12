@@ -1,0 +1,69 @@
+#Task 1
+#include<stdio.h>
+int main() {
+int num1, num2;
+printf("enter num1"):
+scanf ( "%d",&num1);
+printf( "enter num2");
+scanf ("%d",&num2);
+float result = num1+num2;
+printf("the result is %f", result);
+return 0;
+}
+
+#Task 2
+#include<stdio.h>
+int main(){
+int Totalmarks=200; float obtainmarks;
+printf("Enter obtainmarks\n");
+scanf("%f", &obtainmarks);
+float percentage=obtainmarks/Totalmarks*100;
+printf("your percentage is %f", percentage);
+return 0;
+}
+
+#Task 3
+#include<stdio.h>
+int main() (
+int num;
+printf("enter num");
+scanf ("%d" ,&num);
+if (num%2==0) {
+printf("even num");
+}
+else{
+printf("odd num"');
+}
+return 0; 
+}
+
+#Task 4
+#include<stdio.h>
+int main(){
+int age;
+printf("enter age");
+scanf("%d",&age);
+if (age>= 18){
+printf("eligible for vote");
+}else
+printf("not eligible");
+}
+return 0 ;
+}
+
+#Task 5
+#include<stdio.h>
+int main() (
+int marks;
+printf("enter marks");
+scanf ("%d", &marks);
+if (marks>=80){
+printf("A");
+else if marks>=60) {
+printf("B");
+}else{
+Printf("C");
+rreturn 0;
+}
+return 0;
+}
