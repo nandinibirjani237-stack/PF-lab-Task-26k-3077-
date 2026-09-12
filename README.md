@@ -35,16 +35,16 @@ return 0; <br>
 }
 
 # Task 3<br>
-#include <stdio.h>
-#include <string.h>
-int main() {
-char name [30];
-printf("enter your name");
-fgets(name, sizeof (name),stdin);
-name [strcspn(name, "In")]= 0 ;
-puts (name) ;
-return 0;
-}
+#include <stdio.h><br>
+#include <string.h><br>
+<br>int main() {
+<br>char name [30];
+<br>printf("enter your name");
+<br>fgets(name, sizeof (name),stdin);<br>
+name [strcspn(name, "In")]= 0 ;<br>
+puts (name) ;<br>
+return 0;<br>
+}<br>
 # Task 4
 int main() {
 
@@ -72,55 +72,55 @@ return 0;
 }
 
 # Task 5
-#include <stdio.h>
-int main () {
-int value, square, cube;
-printf( "enter the value");
-scanf ("%d",&value);
-square = value*value;
-printf("%d", square);
-cube = value*value*value;
-printf("\n%d", cube) ;
-return 0;
+#include <stdio.h><br>
+<br>int main () {
+<br>int value, square, cube;
+<br>printf( "enter the value");
+<br>scanf ("%d",&value);
+<br>square = value*value;
+<br>printf("%d", square);
+<br>cube = value*value*value;
+<br>printf("\n%d", cube) ;
+<br>return 0;
 }
 
 # Task 6
-int main () {
-float celsius, fehrenheit;
-printf("enter the celsius");
-scanf("%f",&celsius);
-fehrenheit=(celsius*9/5)+32;
-printf ("%f", fehrenheit);
-return 0;
+<br>int main () {
+<br>float celsius, fehrenheit;
+<br>printf("enter the celsius");
+<br>scanf("%f",&celsius);
+fehrenheit=(celsius*9/5)+32;<br>
+printf ("%f", fehrenheit);<br>
+return 0;<br>
 }
 
 # Task 7
-#include <stdio.h>
-int main () {
-int val1, val,val3;
-float avg;
-printf( "enter vall");
-scanf ("%d",&val1);
-printf ("enter val2"); 
-scanf ("%d",&val2):
-printf ("enter val3"); 
-scanf ("%d",&val3);
+#include <stdio.h><br>
+<br>int main () {
+<br>int val1, val,val3;
+<br>float avg;
+<br>printf( "enter vall");
+<br>scanf ("%d",&val1);
+<br>printf ("enter val2"); 
+<br>scanf ("%d",&val2):
+<br>printf ("enter val3"); 
+<br>scanf ("%d",&val3);
 avg=(val1+val2+val3)/3;
-printf ("%f", avg);
+printf ("%f", avg);<br>
 }
-return 0;
+return 0;<br>
 }
 
 # Task 8
-#include <stdio.h>
+#include <stdio.h><br>
 int main () {
 int marks;
-printf( "enter marks");
-scanf ("%d", &marks) ;
-if (marks>=50) {
+printf( "enter marks");<br>
+scanf ("%d", &marks) ;<br>
+<br>if (marks>=50) {
 printf("pass");
 }
-printf("fail");
+<br>printf("fail");
 }
-return 0;
+<br>return 0;
 }
